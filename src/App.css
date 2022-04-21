@@ -1,40 +1,72 @@
-.App {
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap'); */
+
+.mainHome {
   text-align: center;
 }
 
-.App-header {
-  background-color: #ffffff;
+a {
+  text-decoration: none;
+}
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+}
+
+#navBarModal {
+  position: absolute;
+  z-index: 2;
+}
+
+#navAxe {
+  padding: 1em;
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(0, 0, 0);
+  border-radius: 3em;
+}
+
+.navIcons {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+.homeHeader {
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content:space-evenly ;
 }
 
 #logo {
-  border: solid black;
+  border: solid rgb(255, 255, 255);
   height: 7em;
   width: 7em;
-}
-
-#nav {
-  border: solid black;
-  height: 20em;
-  width: 15em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.navItems {
-  height: 2em;
-  width: 10em;
-  border: solid black;
+  color: white;
+  font-family: 'Amatic SC', cursive;
 }
 
 #resLink {
-  border: solid black;
-  height: 7em;
+  height: 15em;
+  width: 20em;
+  display: flex;
+  flex-direction: column;
+}
+
+#resTitle {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  color: rgb(255, 0, 0);
+  margin: none;
+}
+
+#resTitle:visited {
+  text-decoration: none;
+}
+
+#resMask {
+  height: 10em;
   width: 20em;
 }
