@@ -7,6 +7,8 @@ import HomeIcon from "@mui/icons-material/Home";
 import CollectionsIcon from "@mui/icons-material/Collections";
 import ConnectWithoutContactIcon from "@mui/icons-material/ConnectWithoutContact";
 import BookOnlineIcon from "@mui/icons-material/BookOnline";
+import WorkIcon from '@mui/icons-material/Work';
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 
 const StyledSpeedDial = styled(SpeedDial)(({ theme }) => ({
   position: "absolute",
@@ -22,13 +24,14 @@ const StyledSpeedDial = styled(SpeedDial)(({ theme }) => ({
 
 const actions = [
   { icon: <HomeIcon className="navIcons"/>, name: "Home" },
-  { icon: <CollectionsIcon className="navIcons"/>, name: "Gallery" },
   { icon: <ConnectWithoutContactIcon className="navIcons"/>, name: "Contact" },
   { icon: <BookOnlineIcon className="navIcons"/>, name: "Reserve" },
+  { icon: <WorkIcon className="navIcons"/>, name:"Corporate Events"},
+  { icon: <EmojiEventsIcon className="navIcons"/>, name:"Leagues"},
+  { icon: <CollectionsIcon className="navIcons"/>, name: "Gallery" }
 ];
 
 function NavBar() {
-//   const [direction, setDirection] = React.useState("down");
 
   return (
     <div>
