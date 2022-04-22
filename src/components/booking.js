@@ -7,7 +7,7 @@ function Booking() {
     <div id="mainBooking">
       <h3 id="bookingTitle">BOOKING DETAILS</h3>
       <p id="bookingSubTitle">
-        <b>Per Person</b>
+        <b>Reservation / Walk In : Per Person</b>
       </p>
       <div id="bookingSection">
         <div id="bookingInfoSec">

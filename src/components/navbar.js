@@ -23,7 +23,6 @@ const StyledSpeedDial = styled(SpeedDial)(({ theme }) => ({
 }));
 
 const actions = [
-  { icon: <HomeIcon className="navIcons"/>, name: "Home" },
   { icon: <ConnectWithoutContactIcon className="navIcons"/>, name: "Contact" },
   { icon: <BookOnlineIcon className="navIcons"/>, name: "Reserve" },
   { icon: <WorkIcon className="navIcons"/>, name:"Corporate Events"},
