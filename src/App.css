@@ -54,12 +54,9 @@ ul {
   justify-content: space-around;
 }
 
-#logo {
-  border: solid rgb(255, 255, 255);
-  height: 7em;
-  width: 7em;
-  color: white;
-  font-family: "UnifrakturCook", cursive;
+#snsLogo {
+  height: 15em;
+  width: 15em;
 }
 
 #resLink {
@@ -88,7 +85,7 @@ ul {
 /* About Section */
 
 #mainTitle {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
   text-align: center;
   font-size: 3em;
   background-color: #000000;
@@ -168,7 +165,7 @@ p > a {
 }
 
 #bookingTitle {
-  color: white;
+  color: rgb(255, 0, 0);
   font-family: "Rubik Wet Paint", cursive;
   font-size: 2em;
   text-align: center;
@@ -204,7 +201,7 @@ p > a {
 }
 
 .bookingInfo {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: "Patrick Hand", cursive;
   text-align: center;
   margin: 0;
@@ -214,24 +211,52 @@ p > a {
 .bookingIcons {
   transform: scale(1.8);
   margin-left: 1.15em;
-  color: #000000;
+  color: #ffffff;
 }
 
 .bookingIcons:hover {
-  color: white;
+  color: rgb(0, 0, 0);
+}
+
+/* Menu */
+
+#mainMenu {
+  background-color: #000000;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#menuTitle {
+  color: rgb(255, 0, 0);
+  font-family: "Rubik Wet Paint", cursive;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  margin-top: 1em;
+}
+
+#drinksPic {
+  margin: 1em;
+  border-radius: 2em;
+}
+
+#snsMenuPic {
+  margin: 1em;
+  border-radius: 2em;
 }
 
 /* Corporate Events / Team Building */
 
 #mainCorp {
   background-color: #000000;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
 }
 
 #corpTitle {
-  color: white;
+  color: rgb(255, 0, 0);
   font-family: "Rubik Wet Paint", cursive;
   font-size: 2em;
   text-align: center;
@@ -244,10 +269,6 @@ p > a {
   border-radius: 1em;
   height: 10em;
   width: 22.5em;
-}
-
-#corpSection {
-
 }
 
 #corpInfo {
@@ -267,6 +288,14 @@ p > a {
   margin-top: 1em;
 }
 
+.faqQTitles {
+  color: rgb(255, 0, 0);
+  font-family: "Patrick Hand", cursive;
+  text-align: center;
+  margin: 0;
+  margin-top: .5em;
+}
+
 #corpQs {
   color: rgb(255, 255, 255);
   font-family: "Patrick Hand", cursive;
@@ -274,3 +303,114 @@ p > a {
   margin: 0;
   margin-top: .5em;
 }
+
+/* Leagues */
+
+#mainLeague {
+  background-color: #000000;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#leagueTitle {
+  color: rgb(255, 0, 0);
+  font-family: "Rubik Wet Paint", cursive;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  margin-top: 1em;
+}
+
+#leagueInfo {
+  color: rgb(255, 255, 255);
+  font-family: "Patrick Hand", cursive;
+  text-align: center;
+  margin: 0;
+  margin-top: .5em;
+}
+
+#leagueSubTitle {
+  color: rgb(255, 0, 0);
+  font-family: "Rubik Wet Paint", cursive;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+  margin-top: 1em;
+}
+
+#leagueMemInfo {
+  color: rgb(255, 255, 255);
+  font-family: "Patrick Hand", cursive;
+  text-align: center;
+  margin: 0;
+  margin-top: .5em;
+}
+
+#leagueTimeInfo {
+  color: rgb(255, 255, 255);
+  font-family: "Patrick Hand", cursive;
+  text-align: center;
+  margin: 0;
+  margin-top: .5em;
+}
+
+/* Merch - Gift Cards - Socials */
+
+#mainMGS {
+  background-color: #000000;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.MGSTitles {
+  color: rgb(255, 0, 0);
+  font-family: "Rubik Wet Paint", cursive;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  margin-top: 1em;
+}
+
+#socialsMGS {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+
+.socialIcons {
+  
+}
+
+#merchMGS {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr;
+  height: 40vh;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.merchPics {
+  height: 10em;
+  width: 10em;
+  border-radius: 2em;
+  margin: 1em;
+}
+
+#giftCardsMSG {
+  color: rgb(255, 255, 255);
+  font-family: "Patrick Hand", cursive;
+  text-align: center;
+  margin: 0;
+  margin-top: 2em;
+}
+
+#giftCardIcon {
+  margin-top: .5em;
+  font-size: 4em;
+}
+
+/* Gallery */

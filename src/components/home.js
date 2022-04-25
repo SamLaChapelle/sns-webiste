@@ -1,6 +1,7 @@
 import React from "react";
 import resMask from "../assets/ninja mask reservation.png";
 import NavBar from "./navbar.js";
+import snsLogo from "../assets/Shield n Sheath Logo white (1).svg"
 
 function Home() {
 
@@ -8,7 +9,7 @@ function Home() {
     <div className="mainHome">
       <NavBar id="navBarModal" />
       <header className="homeHeader">
-        <div id="logo"> LOGO </div>
+          <img id="snsLogo" src={snsLogo} alt="Shield N Sheath Logo"/>
         <div id="resLink">
           <a href="https://vantora.com/e/sns/">
             <div id="resTitle">BOOK NOW</div>

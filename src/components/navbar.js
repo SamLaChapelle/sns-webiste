@@ -3,12 +3,13 @@ import { styled } from "@mui/material/styles";
 import navAxe from "../assets/icons8-axe-47.png";
 import SpeedDial from "@mui/material/SpeedDial";
 import SpeedDialAction from "@mui/material/SpeedDialAction";
-import HomeIcon from "@mui/icons-material/Home";
 import CollectionsIcon from "@mui/icons-material/Collections";
 import ConnectWithoutContactIcon from "@mui/icons-material/ConnectWithoutContact";
 import BookOnlineIcon from "@mui/icons-material/BookOnline";
 import WorkIcon from '@mui/icons-material/Work';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
+import StorefrontIcon from '@mui/icons-material/Storefront';
 
 const StyledSpeedDial = styled(SpeedDial)(({ theme }) => ({
   position: "absolute",
@@ -25,9 +26,11 @@ const StyledSpeedDial = styled(SpeedDial)(({ theme }) => ({
 const actions = [
   { icon: <ConnectWithoutContactIcon className="navIcons"/>, name: "Contact" },
   { icon: <BookOnlineIcon className="navIcons"/>, name: "Reserve" },
+  { icon: <MenuBookIcon className="navIcons"/>, name: "Menu"},
   { icon: <WorkIcon className="navIcons"/>, name:"Corporate Events"},
   { icon: <EmojiEventsIcon className="navIcons"/>, name:"Leagues"},
-  { icon: <CollectionsIcon className="navIcons"/>, name: "Gallery" }
+  { icon: <StorefrontIcon className="navIcons"/>, name: "Merch & Socials"},
+  { icon: <CollectionsIcon className="navIcons"/>, name: "Gallery" },
 ];
 
 function NavBar() {
