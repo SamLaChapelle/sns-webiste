@@ -313,6 +313,10 @@ p > a {
   flex-direction: column;
 }
 
+#IATFPic {
+  margin-left: .5em;
+}
+
 #leagueTitle {
   color: rgb(255, 0, 0);
   font-family: "Rubik Wet Paint", cursive;
@@ -414,3 +418,20 @@ p > a {
 }
 
 /* Gallery */
+
+#mainGallery {
+  background-color: #000000;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  border: solid white;
+}
+
+#galleryTitle {
+  color: rgb(255, 0, 0);
+  font-family: "Rubik Wet Paint", cursive;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  margin-top: 1em;
+}
