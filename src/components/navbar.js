@@ -10,9 +10,10 @@ import WorkIcon from "@mui/icons-material/Work";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import StorefrontIcon from "@mui/icons-material/Storefront";
+import HomeIcon from "@mui/icons-material/Home";
 
 const StyledSpeedDial = styled(SpeedDial)(({ theme }) => ({
-  position: "absolute",
+  position: "fixed",
   "&.MuiSpeedDial-directionUp, &.MuiSpeedDial-directionLeft": {
     bottom: theme.spacing(2),
     right: theme.spacing(2),
@@ -24,6 +25,14 @@ const StyledSpeedDial = styled(SpeedDial)(({ theme }) => ({
 }));
 
 const actions = [
+  {
+    icon: (
+      <a href="/#Home" className="navLinks">
+        <HomeIcon className="navIcons" />
+      </a>
+    ),
+    name: "Home",
+  },
   {
     icon: (
       <a href="/#About" className="navLinks">
@@ -89,6 +98,14 @@ function NavBar() {
         ariaLabel="SpeedDial playground example"
         icon={<img id="navAxe" src={navAxe} alt="axe"></img>}
         direction="down"
+        FabProps={{
+          sx: {
+            backgroundColor: "#00000000",
+            "&:hover": {
+              backgroundColor: '#00000000'
+            }
+          },
+        }}
       >
         {actions.map((action) => (
           <SpeedDialAction

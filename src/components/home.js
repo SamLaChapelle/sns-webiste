@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="mainHome">
       <NavBar id="navBarModal" />
-      <header className="homeHeader">
+      <div id="Home">
           <img id="snsLogo" src={snsLogo} alt="Shield N Sheath Logo"/>
         <div id="resLink">
           <a href="https://vantora.com/e/sns/">
@@ -16,7 +16,7 @@ function Home() {
             <img id="resMask" src={resMask} alt="red ninja mask"></img>
           </a>
         </div>
-      </header>
+      </div>
     </div>
   );
 }
