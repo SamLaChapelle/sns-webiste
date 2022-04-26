@@ -38,7 +38,7 @@ function MerchGCSocials() {
           </a>
         </p>
       </div>
-      <h3 className="MGSTitles">SOCIALS</h3>
+      <h3 className="MGSTitles" id="socialTitle" >SOCIALS</h3>
       <div id="socialsMGS">
         <a href="https://www.facebook.com/Shield-n-Sheath-Hatchet-House-104652208097116">
           {" "}

@@ -276,7 +276,7 @@ p > a {
   font-family: "Patrick Hand", cursive;
   text-align: center;
   margin: 0;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 #faqTitle {
@@ -293,7 +293,7 @@ p > a {
   font-family: "Patrick Hand", cursive;
   text-align: center;
   margin: 0;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 #corpQs {
@@ -301,7 +301,7 @@ p > a {
   font-family: "Patrick Hand", cursive;
   text-align: center;
   margin: 0;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 /* Leagues */
@@ -314,7 +314,7 @@ p > a {
 }
 
 #IATFPic {
-  margin-left: .5em;
+  margin-left: 0.5em;
 }
 
 #leagueTitle {
@@ -331,7 +331,7 @@ p > a {
   font-family: "Patrick Hand", cursive;
   text-align: center;
   margin: 0;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 #leagueSubTitle {
@@ -348,7 +348,7 @@ p > a {
   font-family: "Patrick Hand", cursive;
   text-align: center;
   margin: 0;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 #leagueTimeInfo {
@@ -356,7 +356,7 @@ p > a {
   font-family: "Patrick Hand", cursive;
   text-align: center;
   margin: 0;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 /* Merch - Gift Cards - Socials */
@@ -377,6 +377,10 @@ p > a {
   margin-top: 1em;
 }
 
+#socialTitle {
+  margin-top: 2em;
+}
+
 #socialsMGS {
   display: flex;
   flex-direction: row;
@@ -384,13 +388,9 @@ p > a {
   margin-top: 1em;
 }
 
-.socialIcons {
-  
-}
-
 #merchMGS {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   height: 40vh;
   margin-top: 1em;
@@ -413,7 +413,7 @@ p > a {
 }
 
 #giftCardIcon {
-  margin-top: .5em;
+  margin-top: 0.5em;
   font-size: 4em;
 }
 
@@ -421,10 +421,9 @@ p > a {
 
 #mainGallery {
   background-color: #000000;
-  min-height: 60vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
-  border: solid white;
 }
 
 #galleryTitle {
@@ -434,4 +433,41 @@ p > a {
   text-align: center;
   margin: 0;
   margin-top: 1em;
+}
+
+#galleryContainer {
+  height: 55vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+  margin-left: 1.25em;
+}
+
+/* Footer */
+
+#mainFooter {
+  height: 20vh;
+  background-color: #000000; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footerInfo {
+  color: rgb(255, 255, 255);
+  font-family: "Patrick Hand", cursive;
+  text-align: center;
+  margin: 0;
+  margin-top: 0.5em;
+}
+
+#footerImage {
+  height: 3em;
+  width: 4em;
+}
+
+.footerIcons {
+  height: 2em;
+  width: 2em;
 }
