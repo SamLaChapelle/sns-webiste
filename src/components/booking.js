@@ -4,7 +4,7 @@ import BookOnlineIcon from "@mui/icons-material/BookOnline";
 
 function Booking() {
   return (
-    <div id="mainBooking">
+    <div id="Booking">
       <h3 id="bookingTitle">BOOKING DETAILS</h3>
       <p id="bookingSubTitle">
         <b>Reservation / Walk In : Per Person</b>

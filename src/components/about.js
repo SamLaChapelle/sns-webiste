@@ -7,7 +7,7 @@ import axesPic from "../assets/IMG_2646.png";
 
 function About() {
   return (
-    <div id="mainAbout">
+    <div id="About">
       <h3 id="mainTitle">Shield N Sheath</h3>
       <div id="aboutSection">
         <img

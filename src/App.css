@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Rubik+Wet+Paint&family=UnifrakturCook:wght@700&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   overflow-x: hidden;
 }
@@ -43,6 +47,16 @@ ul {
 
 .navIcons {
   color: rgb(0, 0, 0);
+  margin-top: .25em;
+}
+
+.navLinks {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  scroll-behavior: smooth;
 }
 
 .homeHeader {
@@ -93,7 +107,7 @@ ul {
   font-family: "Rubik Wet Paint", cursive;
 }
 
-#mainAbout {
+#About {
   background-color: #000000;
   min-height: 100vh;
   display: flex;
@@ -149,7 +163,7 @@ p > a {
 
 /* Booking */
 
-#mainBooking {
+#Booking {
   background-color: #000000;
   min-height: 40vh;
   display: flex;
@@ -220,7 +234,7 @@ p > a {
 
 /* Menu */
 
-#mainMenu {
+#Menu {
   background-color: #000000;
   min-height: 90vh;
   display: flex;
@@ -248,7 +262,7 @@ p > a {
 
 /* Corporate Events / Team Building */
 
-#mainCorp {
+#Corp {
   background-color: #000000;
   min-height: 80vh;
   display: flex;
@@ -306,7 +320,7 @@ p > a {
 
 /* Leagues */
 
-#mainLeague {
+#League {
   background-color: #000000;
   min-height: 75vh;
   display: flex;
@@ -359,9 +373,13 @@ p > a {
   margin-top: 0.5em;
 }
 
+.leagueList {
+  margin: .5em;
+}
+
 /* Merch - Gift Cards - Socials */
 
-#mainMGS {
+#MGS {
   background-color: #000000;
   min-height: 75vh;
   display: flex;
@@ -419,7 +437,7 @@ p > a {
 
 /* Gallery */
 
-#mainGallery {
+#Gallery {
   background-color: #000000;
   min-height: 70vh;
   display: flex;

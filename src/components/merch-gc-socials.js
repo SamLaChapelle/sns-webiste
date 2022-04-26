@@ -9,7 +9,7 @@ import CardGiftcardIcon from "@mui/icons-material/CardGiftcard";
 
 function MerchGCSocials() {
   return (
-    <div id="mainMGS">
+    <div id="MGS">
       <h3 className="MGSTitles">MERCH</h3>
       <div id="merchMGS">
         <img

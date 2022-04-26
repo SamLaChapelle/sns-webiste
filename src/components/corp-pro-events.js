@@ -2,7 +2,7 @@ import React from "react";
 
 function CorpEvents() {
   return (
-    <div id="mainCorp">
+    <div id="Corp">
       <h3 id="corpTitle">CORPORATE EVENTS & TEAM BUILDING</h3>
       <p id="corpInfo">
         Our corporate and large group team-building axe throwing activities are
@@ -21,20 +21,20 @@ function CorpEvents() {
           <u>Frequently Asked Questions</u>
         </b>
       </p>
-      <p id="corpQs">
+      <div id="corpQs">
         <br />
         <b>
-          <h4 className="faqQTitles">Do you offer food options?</h4>
+          <p className="faqQTitles">Do you offer food options?</p>
         </b>{" "}
         Yes, we offer full service large group food options
         <br />
         <b>
-          <h4 className="faqQTitles">Do you service alcohol?</h4>
+          <p className="faqQTitles">Do you service alcohol?</p>
         </b>{" "}
         Yes, we offer a large range of beers, ciders and canned cocktails
         <br />
         <b>
-          <h4 className="faqQTitles">What is your capacity?</h4>
+          <p className="faqQTitles">What is your capacity?</p>
         </b>{" "}
         We can host very large groups using our indoor and outdoor seating. Give
         us a shout we are sure we can accommodate!
@@ -46,7 +46,7 @@ function CorpEvents() {
           <br />
           <a href="tel: 1-833-293-5263">833-293-5263</a>
         </p>
-      </p>
+      </div>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import snsMenuPic from "../assets/SNS MENU.png";
 
 function Menu() {
   return (
-    <div id="mainMenu">
+    <div id="Menu">
       <h3 id="menuTitle">MENU</h3>
       <img
         id="drinksPic"

@@ -139,7 +139,7 @@ function Gallery() {
   ];
 
   return (
-    <div id="mainGallery">
+    <div id="Gallery">
       <h3 id="galleryTitle">GALLERY</h3>
       <div id="galleryContainer">
         {" "}

@@ -1,10 +1,10 @@
 import React from "react";
-import IATFCertPic from "../assets/IATF Trophy Image.png"
+import IATFCertPic from "../assets/IATF Trophy Image.png";
 
 function Leagues() {
   return (
-    <div id="mainLeague">
-      <img id="IATFPic" src={IATFCertPic} alt="IATF Certification"/>
+    <div id="League">
+      <img id="IATFPic" src={IATFCertPic} alt="IATF Certification" />
       <h3 id="leagueTitle">LEAGUES</h3>
       <p id="leagueInfo">
         We welcome new as well as experienced axe & knife throwing athletes to
@@ -20,20 +20,26 @@ function Leagues() {
         following official International Axe Throwing Federation Rules.
       </p>
       <h4 id="leagueSubTitle">LEAGUE MEMBER BENEFITS</h4>
-      <p id="leagueMemInfo">
+      <div id="leagueMemInfo">
         <ul>
-          <li>2.5 hours of axe throwing per week (practice + matches)</li>
-          <li>Complimentary U.K.A.T. Rules Knife League</li>
-          <li>
+          <li className="leagueList">
+            2.5 hours of axe throwing per week (practice + matches)
+          </li>
+          <li className="leagueList">
+            Complimentary U.K.A.T. Rules Knife League
+          </li>
+          <li className="leagueList">
             20% Off for your bookings and equipment purchases during league
             season
           </li>
-          <li>Professional training and assistance from our expert coaches</li>
-          <li>
+          <li className="leagueList">
+            Professional training and assistance from our expert coaches
+          </li>
+          <li className="leagueList">
             A chance to qualify for the International Axe Throwing Championship!
           </li>
         </ul>
-      </p>
+      </div>
       <p id="leagueTimeInfo">
         <b>
           <u>Leagues Run On Tuesday Evenings</u>
