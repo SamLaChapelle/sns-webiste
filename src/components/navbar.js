@@ -92,6 +92,17 @@ const actions = [
 ];
 
 function NavBar() {
+  window.addEventListener(
+    "scroll",
+    () => {
+      document.body.style.setProperty(
+        "--scroll",
+        window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
+      );
+    },
+    false
+  );
+
   return (
     <div>
       <StyledSpeedDial
@@ -102,8 +113,8 @@ function NavBar() {
           sx: {
             backgroundColor: "#00000000",
             "&:hover": {
-              backgroundColor: '#00000000'
-            }
+              backgroundColor: "#00000000",
+            },
           },
         }}
       >
