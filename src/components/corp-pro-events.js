@@ -44,7 +44,7 @@ function CorpEvents() {
           {" "}
           <a href="mailto:info@shieldnsheath.com">info@shieldnsheath.com</a>
           <br />
-          <a href="tel: 1-833-293-5263">833-293-5263</a>
+          <a href="tel: 1-833-293-5263">833-AXE-LANE</a>
         </p>
       </div>
     </div>

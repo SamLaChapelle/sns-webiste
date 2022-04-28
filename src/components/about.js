@@ -16,7 +16,7 @@ function About() {
           alt="axe throwing lanes with targets"
         ></img>
         <p className="aboutInfo">
-          Shield N Sheath Hatchet House was established in 2019 and is women
+          Shield N Sheath Hatchet House was established in 2019 and is female
           owned. Perfect for family, friends and corporate events. Book today to
           have a fun and unique experience throwing not only axes but ninja
           stars, knives, throwing cards and the one and only batarang!{" "}
@@ -43,7 +43,7 @@ function About() {
           <br />
           <a href="tel: 1-833-293-5263">
             <CallIcon className="contactIcons" />
-            833-293-5263
+            833-AXE-LANE
           </a>
           <br />
           <a href="mailto:info@shieldnsheath.com">

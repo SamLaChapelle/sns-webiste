@@ -1,6 +1,6 @@
 import React from "react";
 import drinksPic from "../assets/IMG_2672.png";
-import snsMenuPic from "../assets/SNS MENU.png";
+import snsMenuPic from "../assets/SHIELD N SHEATH MENU SPRING MENU.jpg";
 
 function Menu() {
   return (

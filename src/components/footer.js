@@ -17,7 +17,7 @@ function Footer() {
         Richmond, VA 23230
         <br />
         <br />
-        <a href="tel: 1-833-293-5263">833-293-5263</a>
+        <a href="tel: 1-833-293-5263">833-AXE-LANE</a>
         <br />
         <a href="mailto:info@shieldnsheath.com">info@shieldnsheath.com</a>
       </p>
