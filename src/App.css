@@ -57,7 +57,7 @@ ul {
 
 .navIcons {
   color: #000000;
-  margin-top: .25em;
+  margin-top: 0.25em;
 }
 
 .navLinks {
@@ -385,7 +385,7 @@ p > a {
 }
 
 .leagueList {
-  margin: .5em;
+  margin: 0.5em;
 }
 
 /* Merch - Gift Cards - Socials */
@@ -477,7 +477,7 @@ p > a {
 
 #mainFooter {
   height: 20vh;
-  background-color: #000000; 
+  background-color: #000000;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -499,4 +499,547 @@ p > a {
 .footerIcons {
   height: 2em;
   width: 2em;
+}
+
+/* Media Query for IPad and Laptop Screen Sizes */
+
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+  
+  /* Home / Landing Page */
+  
+  
+  #Home {
+    background-color: #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  #snsLogo {
+    height: 20em;
+    width: 20em;
+  }
+  
+  #resLink {
+    height: 15em;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5em;
+  }
+  
+  #resTitle {
+    font-family: "Rubik Wet Paint", cursive;
+    font-size: 3em;
+    color: rgb(255, 0, 0);
+    margin: none;
+  }
+  
+  #resTitle:visited {
+    text-decoration: none;
+  }
+  
+  #resMask {
+    height: 18em;
+    width: 18em;
+  }
+  
+  /* About Section */
+  
+  #About {
+    background-color: #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #aboutSection {
+    margin: 1em;
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    height: 90vh;
+  }
+  
+  #aboutPic {
+    height: 20em;
+    width: 15em;
+    border-radius: 1em;
+  }
+  
+  .aboutInfo {
+    color: white;
+    margin: 0;
+    font-family: "Patrick Hand", cursive;
+    font-size: 1.5em;
+  }
+  
+  #aboutHours {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .aboutPic2 {
+    height: 20em;
+    width: 15em;
+    border-radius: 1em;
+  }
+  
+  /* Booking */
+  
+  #bookingInfoSec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(255, 0, 0);
+    border-radius: 2em;
+    height: 20em;
+    justify-items: center;
+  }
+  
+  .bookingInfo {
+    color: rgb(255, 255, 255);
+    font-family: "Patrick Hand", cursive;
+    text-align: center;
+    margin: 0;
+    margin-top: 1em;
+    font-size: 1.5em;
+  }
+
+  /* Menu */  
+  /* Needs More Photo's Of Food */
+
+  #Menu {
+    background-color: #000000;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #drinksPic {
+    margin: 1em;
+    border-radius: 2em;
+    height: 15em;
+    width: 35em;
+  }
+  
+  #snsMenuPic {
+    margin: 1em;
+    border-radius: 2em;
+    height: 35em;
+    width: 25em;
+  }
+  
+  /* Corporate Events / Team Building */
+  
+  #Corp {
+    background-color: #000000;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #corpInfo {
+    color: rgb(255, 255, 255);
+    font-family: "Patrick Hand", cursive;
+    text-align: center;
+    margin: 0;
+    margin-top: 0.5em;
+    width: 80vw;
+  }
+  
+  /* Leagues */
+
+    #IATFPic {
+    margin-left: 0.5em;
+    height: 25em;
+    width: 35em;
+  }
+
+  #League {
+    background-color: #000000;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #leagueInfo {
+    color: rgb(255, 255, 255);
+    font-family: "Patrick Hand", cursive;
+    text-align: center;
+    margin: 0;
+    margin-top: 0.5em;
+    width: 80vw;
+  }
+  
+  /* Merch - Gift Cards - Socials */
+  
+  #MGS {
+    background-color: #000000;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #socialsMGS {
+    display: flex;
+    flex-direction: row;
+    align-content:space-around;
+    margin-top: 2em;
+    width: 100vw;
+  }
+
+  .socialIcons {
+    transform: scale(1.5);
+  }
+  
+  #merchMGS {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 50vh;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .merchPics {
+    height: 15em;
+    width: 15em;
+    border-radius: 2em;
+    margin: 1em;
+  }
+  
+  #giftCardsMSG {
+    color: rgb(255, 255, 255);
+    font-family: "Patrick Hand", cursive;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    margin-top: 1em;
+  }
+  
+  #giftCardIcon {
+    margin-top: 0.5em;
+    font-size: 3em;
+  }
+  
+  /* Gallery */
+  
+  #Gallery {
+    background-color: #000000;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #galleryTitle {
+    color: rgb(255, 0, 0);
+    font-family: "Rubik Wet Paint", cursive;
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+    margin-top: 1em;
+  }
+  
+  #galleryContainer {
+    height: 55vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Footer */
+  
+  #mainFooter {
+    height: 20vh;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+/* Media Query for Desktop Screen Size */
+
+@media only screen and (min-width: 1400px) {
+    /* Home / Landing Page */
+  
+  
+    #Home {
+      background-color: #000000;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    
+    #snsLogo {
+      height: 20em;
+      width: 20em;
+    }
+    
+    #resLink {
+      height: 15em;
+      width: 20em;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 5em;
+    }
+    
+    #resTitle {
+      font-family: "Rubik Wet Paint", cursive;
+      font-size: 3em;
+      color: rgb(255, 0, 0);
+      margin: none;
+    }
+    
+    #resTitle:visited {
+      text-decoration: none;
+    }
+    
+    #resMask {
+      height: 18em;
+      width: 18em;
+    }
+    
+    /* About Section */
+    
+    #About {
+      background-color: #000000;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    #aboutSection {
+      margin: 1em;
+      margin-top: 3em;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      justify-items: center;
+      height: 90vh;
+    }
+    
+    #aboutPic {
+      height: 20em;
+      width: 15em;
+      border-radius: 1em;
+    }
+    
+    .aboutInfo {
+      color: white;
+      margin: 0;
+      font-family: "Patrick Hand", cursive;
+      font-size: 1.5em;
+    }
+    
+    #aboutHours {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+    
+    .aboutPic2 {
+      height: 20em;
+      width: 15em;
+      border-radius: 1em;
+    }
+    
+    /* Booking */
+    
+    #bookingInfoSec {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      background-color: rgb(255, 0, 0);
+      border-radius: 2em;
+      height: 20em;
+      justify-items: center;
+    }
+    
+    .bookingInfo {
+      color: rgb(255, 255, 255);
+      font-family: "Patrick Hand", cursive;
+      text-align: center;
+      margin: 0;
+      margin-top: 1em;
+      font-size: 1.5em;
+    }
+  
+    /* Menu */  
+    /* Needs More Photo's Of Food */
+  
+    #Menu {
+      background-color: #000000;
+      min-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #drinksPic {
+      margin: 1em;
+      border-radius: 2em;
+      height: 15em;
+      width: 35em;
+    }
+    
+    #snsMenuPic {
+      margin: 1em;
+      border-radius: 2em;
+      height: 35em;
+      width: 25em;
+    }
+    
+    /* Corporate Events / Team Building */
+    
+    #Corp {
+      background-color: #000000;
+      min-height: 50vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #corpInfo {
+      color: rgb(255, 255, 255);
+      font-family: "Patrick Hand", cursive;
+      text-align: center;
+      margin: 0;
+      margin-top: 0.5em;
+      width: 80vw;
+    }
+    
+    /* Leagues */
+  
+      #IATFPic {
+      margin-left: 0.5em;
+      height: 25em;
+      width: 35em;
+    }
+  
+    #League {
+      background-color: #000000;
+      min-height: 75vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #leagueInfo {
+      color: rgb(255, 255, 255);
+      font-family: "Patrick Hand", cursive;
+      text-align: center;
+      margin: 0;
+      margin-top: 0.5em;
+      width: 80vw;
+    }
+    
+    /* Merch - Gift Cards - Socials */
+    
+    #MGS {
+      background-color: #000000;
+      min-height: 75vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #socialsMGS {
+      display: flex;
+      flex-direction: row;
+      align-content:space-around;
+      margin-top: 2em;
+      width: 100vw;
+    }
+  
+    .socialIcons {
+      transform: scale(1.5);
+    }
+    
+    #merchMGS {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      height: 50vh;
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+    
+    .merchPics {
+      height: 15em;
+      width: 15em;
+      border-radius: 2em;
+      margin: 1em;
+    }
+    
+    #giftCardsMSG {
+      color: rgb(255, 255, 255);
+      font-family: "Patrick Hand", cursive;
+      text-align: center;
+      font-size: 2em;
+      margin: 0;
+      margin-top: 1em;
+    }
+    
+    #giftCardIcon {
+      margin-top: 0.5em;
+      font-size: 3em;
+    }
+    
+    /* Gallery */
+    
+    #Gallery {
+      background-color: #000000;
+      min-height: 70vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    #galleryTitle {
+      color: rgb(255, 0, 0);
+      font-family: "Rubik Wet Paint", cursive;
+      font-size: 2em;
+      text-align: center;
+      margin: 0;
+      margin-top: 1em;
+    }
+    
+    #galleryContainer {
+      height: 55vh;
+      width: 90vw;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    /* Footer */
+    
+    #mainFooter {
+      height: 20vh;
+      background-color: #000000;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
 }
