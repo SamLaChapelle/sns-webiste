@@ -10,17 +10,18 @@ function About() {
     <div id="About">
       <h3 id="mainTitle">Shield N Sheath</h3>
       <div id="aboutSection">
+        {" "}
         <img
           id="aboutPic"
           src={aboutPic}
           alt="axe throwing lanes with targets"
         ></img>
-        <p className="aboutInfo">
+        <p className="aboutInfo" id="aboutInfoMain">
           Shield N Sheath Hatchet House was established in 2019 and is female
           owned. Perfect for family, friends and corporate events. Book today to
           have a fun and unique experience throwing not only axes but ninja
-          stars, knives, throwing cards and the one and only batarang!{" "}
-        </p>
+          stars, knives, throwing cards and the one and only batarang! <br />
+        </p>{" "}
         <p className="aboutInfo" id="aboutHours">
           <b>
             <u>Hours Of Operation:</u>
@@ -50,12 +51,12 @@ function About() {
             <EmailIcon className="contactIcons" />
             info@shieldnsheath.com
           </a>
-        </p>
+        </p>{" "}
         <img
           className="aboutPic2"
           src={ninjaPackPic}
           alt="ninja star, throwing cards, knives and batarang laying on wooden table"
-        ></img>
+        ></img>{" "}
         <img
           className="aboutPic2"
           src={axesPic}
