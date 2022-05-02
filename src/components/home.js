@@ -1,7 +1,5 @@
 import React from "react";
-import resMask from "../assets/ninja mask reservation.png";
 import ninja1 from "../assets/ninja1.png";
-import ninja2 from "../assets/ninjatwo.png";
 import NavBar from "./navbar.js";
 import snsLogo from "../assets/Shield n Sheath Logo white (1).svg"
 

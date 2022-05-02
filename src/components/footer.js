@@ -43,7 +43,7 @@ function Footer() {
         <br />
         <img id="footerImage" src={IATFPic} alt="IATF Logo" />
         <br />
-        <a href="http://www.sambosauce.com/">
+        <a style={{textDecoration:"underline"}} href="http://www.sambosauce.com/">
           Software Developer
           <br />
           www.sambosauce.com

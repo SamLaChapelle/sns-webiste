@@ -11,6 +11,7 @@ function MerchGCSocials() {
   return (
     <div id="MGS">
       <h3 className="MGSTitles">MERCH</h3>
+      <p id="merchDisc">*Purchased In Store*</p>
       <div id="merchMGS">
         <img
           className="merchPics"
