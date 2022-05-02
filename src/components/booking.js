@@ -1,6 +1,7 @@
 import React from "react";
 import DocumentScannerIcon from "@mui/icons-material/DocumentScanner";
 import BookOnlineIcon from "@mui/icons-material/BookOnline";
+import targetPic from "../assets/icons8-accuracy-64.png";
 
 function Booking() {
   return (
@@ -46,7 +47,9 @@ function Booking() {
               </p>
             </a>
           </div>
-          <div></div>
+          <div>
+          <img id="targetPic" src={targetPic} alt="cartoon target" />
+          </div>
           <div id="bookingLink">
             <a href="https://vantora.com/e/sns/">
               <BookOnlineIcon className="bookingIcons" />
