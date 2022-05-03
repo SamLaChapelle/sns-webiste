@@ -164,6 +164,7 @@ function Gallery() {
     },
   ];
 
+  
   return (
     <div id="Gallery">
       <h3 id="galleryTitle">GALLERY</h3>
