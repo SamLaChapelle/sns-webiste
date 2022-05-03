@@ -23,6 +23,10 @@ import hostStandPic from "../assets/IMG_2678.png";
 import menuPic from "../assets/SNS MENU.png";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
+import instaPic1 from "../assets/sns insta pic1.png";
+import instaPic2 from "../assets/sns insta pic2.png";
+import instaPic3 from "../assets/sns insta pic3.png";
+import instaPic4 from "../assets/sns insta pic4.png";
 
 function srcset(image, size, rows = 1, cols = 1) {
   return {
@@ -134,6 +138,28 @@ function Gallery() {
     {
       img: storePic3,
       title: "Shield N Sheath Store Left",
+      cols: 2,
+    },
+    {
+      img: instaPic2,
+      title: "Shield N Sheath Instagram Pictures",
+      cols: 2,
+    },
+    {
+      img: instaPic1,
+      title: "Shield N Sheath Instagram Pictures",
+      cols: 2,
+      rows: 2,
+    },
+    {
+      img: instaPic3,
+      title: "Shield N Sheath Instagram Pictures",
+      cols: 2,
+      rows: 2,
+    },
+    {
+      img: instaPic4,
+      title: "Shield N Sheath Instagram Pictures",
       cols: 2,
     },
   ];
