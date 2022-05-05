@@ -21,6 +21,7 @@ const StyledSpeedDial = styled(SpeedDial)(({ theme }) => ({
     top: theme.spacing(2),
     left: theme.spacing(2),
   },
+  index: 1,
 }));
 
 const actions = [
