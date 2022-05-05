@@ -167,7 +167,7 @@ ul {
 
 #About {
   background-color: #000000;
-  min-height: 100vh;
+  min-height: 115vh;
   display: flex;
   flex-direction: column;
 }
