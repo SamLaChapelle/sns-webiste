@@ -1,8 +1,6 @@
 import React from "react";
 import DocumentScannerIcon from "@mui/icons-material/DocumentScanner";
 import BookOnlineIcon from "@mui/icons-material/BookOnline";
-import targetPic from "../assets/icons8-accuracy-64.png";
-
 function Booking() {
   return (
     <div id="Booking">
@@ -48,7 +46,11 @@ function Booking() {
             </a>
           </div>
           <div>
-          <img id="targetPic" src={targetPic} alt="cartoon target" />
+            <img
+              id="targetPic"
+              src="https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698770/shieldnsheath%20assets/icons8-accuracy-64_kj79nc.png"
+              alt="cartoon target"
+            />
           </div>
           <div id="bookingLink">
             <a href="https://vantora.com/e/sns/">

@@ -1,32 +1,7 @@
 import React from "react";
-import ninjaPackPic from "../assets/IMG_2643.png";
-import axePic1 from "../assets/IMG_2646.png";
-import axeShovPic from "../assets/IMG_2647.png";
-import spearHelmPic from "../assets/IMG_2650.png";
-import swordShieldPic from "../assets/IMG_2651.png";
-import merchDisplayPic from "../assets/IMG_2653.png";
-import snsWoodPic from "../assets/IMG_2654.png";
-import axePitPic from "../assets/IMG_2656.png";
-import axeGameSheetPic from "../assets/IMG_2657.png";
-import storePic1 from "../assets/IMG_2659.png";
-import storePic2 from "../assets/IMG_2660.png";
-import storePic3 from "../assets/IMG_2661.png";
-import snsTshirtPic1 from "../assets/IMG_2663.png";
-import snsTshirtPic2 from "../assets/IMG_2665.png";
-import snsHoodiePic from "../assets/IMG_2667.png";
-import entSignPic from "../assets/IMG_2669.png";
-import snsPriceSignPic from "../assets/IMG_2670.png";
-import drinksPic from "../assets/IMG_2672.png";
-import knifeDisplayPic from "../assets/IMG_2676 2.png";
-import targetPointsPic from "../assets/IMG_2677.png";
-import hostStandPic from "../assets/IMG_2678.png";
-import menuPic from "../assets/SNS MENU.png";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
-import instaPic1 from "../assets/sns insta pic1.png";
-import instaPic2 from "../assets/sns insta pic2.png";
-import instaPic3 from "../assets/sns insta pic3.png";
-import instaPic4 from "../assets/sns insta pic4.png";
+
 
 function srcset(image, size, rows = 1, cols = 1) {
   return {
@@ -40,125 +15,125 @@ function srcset(image, size, rows = 1, cols = 1) {
 function Gallery() {
   const itemData = [
     {
-      img: spearHelmPic,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698782/shieldnsheath%20assets/IMG_2650_jfqemr.png",
       title: "Spear and Helmets",
       cols: 3,
       rows: 2,
     },
     {
-      img: ninjaPackPic,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700916/shieldnsheath%20assets/IMG_2643_eunsof.png",
       title: "Ninja Pack",
       rows: 1,
       cols: 1,
     },
     {
-      img: axePic1,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700918/shieldnsheath%20assets/IMG_2646_abteye.png",
       title: "Axes",
     },
     {
-      img: axeShovPic,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700912/shieldnsheath%20assets/IMG_2647_n3llnm.png",
       title: "Axes and Combat Shovel",
     },
     {
-      img: drinksPic,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698779/shieldnsheath%20assets/IMG_2672_tra5hj.png",
       title: "Nonalcoholic and Alcoholic Drinks",
       cols: 3,
     },
     {
-      img: swordShieldPic,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700916/shieldnsheath%20assets/IMG_2651_gbbgkk.png",
       title: "Sword and Shield Display",
       rows: 2,
       cols: 2,
     },
     {
-      img: snsWoodPic,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700910/shieldnsheath%20assets/IMG_2654_c7qfal.png",
       title: "Shield and Sheath Wood Log",
     },
     {
-      img: axePitPic,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700930/shieldnsheath%20assets/IMG_2656_bcmkwk.png",
       title: "Axe throwing pit lanes",
     },
     {
-      img: merchDisplayPic,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700914/shieldnsheath%20assets/IMG_2653_i12rfs.png",
       title: "Shield and Sheath Merch Display",
       rows: 2,
       cols: 2,
     },
     {
-      img: axeGameSheetPic,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700924/shieldnsheath%20assets/IMG_2657_xm3ves.png",
       title: "Axe Game Sheet",
     },
     {
-      img: entSignPic,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700938/shieldnsheath%20assets/IMG_2669_rhsv97.png",
       title: "Entrance Sign",
     },
     {
-      img: knifeDisplayPic,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700936/shieldnsheath%20assets/IMG_2676_2_cq1qzn.png",
       title: "Knife Display Case",
       cols: 3,
     },
     {
-      img: snsTshirtPic1,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700926/shieldnsheath%20assets/IMG_2663_elbqmz.png",
       title: "Shield N Sheath Micael Myers T-Shirt",
     },
     {
-      img: snsTshirtPic2,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700930/shieldnsheath%20assets/IMG_2665_aci5uk.png",
       title: "Shield N Sheath T-Shirt",
     },
     {
-      img: snsHoodiePic,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700931/shieldnsheath%20assets/IMG_2667_cyh6yp.png",
       title: "Shield N Sheath Hoodie",
     },
     {
-      img: storePic1,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700926/shieldnsheath%20assets/IMG_2659_mfflyc.png",
       title: "Shield N Sheath Store Right",
       cols: 2,
     },
     {
-      img: menuPic,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698775/shieldnsheath%20assets/SNS_MENU_efiwnu.png",
       title: "Shield N Sheath Menu",
     },
     {
-      img: snsPriceSignPic,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700938/shieldnsheath%20assets/IMG_2670_lqgdcq.png",
       title: "Shield N Sheath Axe Throwing Prices Sign",
     },
     {
-      img: storePic2,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700930/shieldnsheath%20assets/IMG_2660_khr9dx.png",
       title: "Shield N Sheath Store Middle",
       cols: 2,
     },
     {
-      img: targetPointsPic,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700940/shieldnsheath%20assets/IMG_2677_xc8o4r.png",
       title: "Axe Target with points",
     },
     {
-      img: hostStandPic,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700940/shieldnsheath%20assets/IMG_2678_saaxqj.png",
       title: "Shield N Sheath Entrance Stand",
     },
     {
-      img: storePic3,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700927/shieldnsheath%20assets/IMG_2661_euoi3m.png",
       title: "Shield N Sheath Store Left",
       cols: 2,
     },
     {
-      img: instaPic2,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698775/shieldnsheath%20assets/sns_insta_pic2_jkm1rx.png",
       title: "Shield N Sheath Instagram Pictures",
       cols: 2,
     },
     {
-      img: instaPic1,
-      title: "Shield N Sheath Instagram Pictures",
-      cols: 2,
-      rows: 2,
-    },
-    {
-      img: instaPic3,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698775/shieldnsheath%20assets/sns_insta_pic1_n6dezt.png",
       title: "Shield N Sheath Instagram Pictures",
       cols: 2,
       rows: 2,
     },
     {
-      img: instaPic4,
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698775/shieldnsheath%20assets/sns_insta_pic3_dtieho.png",
+      title: "Shield N Sheath Instagram Pictures",
+      cols: 2,
+      rows: 2,
+    },
+    {
+      img: "https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698776/shieldnsheath%20assets/sns_insta_pic4_kyd30o.png",
       title: "Shield N Sheath Instagram Pictures",
       cols: 2,
     },

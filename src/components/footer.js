@@ -1,8 +1,4 @@
 import React from "react";
-import facebookIcon from "../assets/icons8-facebook-48.png";
-import instagramIcon from "../assets/icons8-instagram-48.png";
-import tiktokIcon from "../assets/icons8-tiktok-48.png";
-import IATFPic from "../assets/IATF Trophy Image.png";
 
 function Footer() {
   return (
@@ -24,26 +20,41 @@ function Footer() {
       <p className="footerInfo">
         <a href="https://www.facebook.com/Shield-n-Sheath-Hatchet-House-104652208097116">
           {" "}
-          <img className="footerIcons" src={facebookIcon} alt="facebook icon" />
+          <img
+            className="footerIcons"
+            src="https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698776/shieldnsheath%20assets/icons8-facebook-48_qx4zqw.png"
+            alt="facebook icon"
+          />
         </a>
         <a href="https://www.instagram.com/shieldnsheath/">
           {" "}
           <img
             className="footerIcons"
-            src={instagramIcon}
+            src="https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698776/shieldnsheath%20assets/icons8-instagram-48_bhu8wy.png"
             alt="instagram icon"
           />
         </a>
         <a href="https://www.tiktok.com/@shieldnsheath">
           {" "}
-          <img className="footerIcons" src={tiktokIcon} alt="tiktok icon" />
+          <img
+            className="footerIcons"
+            src="https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698776/shieldnsheath%20assets/icons8-tiktok-48_zdtup5.png"
+            alt="tiktok icon"
+          />
         </a>
         <br />
         ©2022 Shield N Sheath
         <br />
-        <img id="footerImage" src={IATFPic} alt="IATF Logo" />
+        <img
+          id="footerImage"
+          src="https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698773/shieldnsheath%20assets/IATF_Trophy_Image_wkcvqm.png"
+          alt="IATF Logo"
+        />
         <br />
-        <a style={{textDecoration:"underline"}} href="http://www.sambosauce.com/">
+        <a
+          style={{ textDecoration: "underline" }}
+          href="http://www.sambosauce.com/"
+        >
           Software Developer
           <br />
           www.sambosauce.com

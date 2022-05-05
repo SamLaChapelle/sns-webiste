@@ -1,10 +1,13 @@
 import React from "react";
-import IATFCertPic from "../assets/IATF Trophy Image.png";
 
 function Leagues() {
   return (
     <div id="League">
-      <img id="IATFPic" src={IATFCertPic} alt="IATF Certification" />
+      <img
+        id="IATFPic"
+        src="https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698773/shieldnsheath%20assets/IATF_Trophy_Image_wkcvqm.png"
+        alt="IATF Certification"
+      />
       <h3 id="leagueTitle">LEAGUES</h3>
       <p id="leagueInfo">
         We welcome new as well as experienced axe & knife throwing athletes to

@@ -1,3 +1,9 @@
+const cloudinary = require("cloudinary").v2;
+
+ let api_secret = process.env.REACT_APP_API_SECRET
+
+ require('dotenv').config()
+
 //initializing express
 const express = require("express");
 const app = express();
@@ -12,4 +18,12 @@ app.get("*", (req, res) => {
 //open a connection to listen for, and respond to requests
 app.listen(port, () => {
   console.log(`Listening on port: ${port}`);
+});
+
+
+
+cloudinary.config({ 
+  cloud_name: 'shield-n-sheath', 
+  api_key: '841471652594934', 
+  api_secret: api_secret 
 });

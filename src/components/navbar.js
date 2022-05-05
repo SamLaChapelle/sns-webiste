@@ -1,6 +1,5 @@
 import * as React from "react";
 import { styled } from "@mui/material/styles";
-import navAxe from "../assets/icons8-axe-47.png";
 import SpeedDial from "@mui/material/SpeedDial";
 import SpeedDialAction from "@mui/material/SpeedDialAction";
 import CollectionsIcon from "@mui/icons-material/Collections";
@@ -107,7 +106,13 @@ function NavBar() {
     <div>
       <StyledSpeedDial
         ariaLabel="SpeedDial playground example"
-        icon={<img id="navAxe" src={navAxe} alt="axe"></img>}
+        icon={
+          <img
+            id="navAxe"
+            src="https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698774/shieldnsheath%20assets/icons8-axe-47_u71lwg.png"
+            alt="axe"
+          ></img>
+        }
         direction="down"
         FabProps={{
           sx: {

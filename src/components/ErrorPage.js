@@ -1,12 +1,15 @@
 import React from "react";
-import snsLogo from "../assets/Shield n Sheath Logo white (1).svg";
 import DocumentScannerIcon from "@mui/icons-material/DocumentScanner";
 import BookOnlineIcon from "@mui/icons-material/BookOnline";
 
 function ErrorPage() {
   return (
     <div id="errorPage">
-      <img id="snsErrorLogo" src={snsLogo} alt="Shield N Sheath Logo" />
+      <img
+        id="snsErrorLogo"
+        src="https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698774/shieldnsheath%20assets/Shield_n_Sheath_Logo_white-01_1_zarssc.png"
+        alt="Shield N Sheath Logo"
+      />
       <h1 id="errorTitle">404 ERROR</h1>
       <p className="errorInfo">
         Shield N Sheath is currently experiencing technical issues. <br />{" "}

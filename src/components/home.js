@@ -1,19 +1,25 @@
 import React from "react";
-import ninja1 from "../assets/ninja1.png";
 import NavBar from "./navbar.js";
-import snsLogo from "../assets/Shield n Sheath Logo white (1).svg"
+
 
 function Home() {
-
   return (
     <div className="mainHome">
       <NavBar id="navBarModal" />
       <div id="Home">
-          <img id="snsLogo" src={snsLogo} alt="Shield N Sheath Logo"/>
+        <img
+          id="snsLogo"
+          src="https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698774/shieldnsheath%20assets/Shield_n_Sheath_Logo_white-01_1_zarssc.png"
+          alt="Shield N Sheath Logo"
+        />
         <div id="resLink">
           <a href="https://vantora.com/e/sns/">
             <div id="resTitle">BOOK NOW</div>
-            <img id="resMask" src={ninja1} alt="red ninja mask"></img>
+            <img
+              id="resMask"
+              src="https://res.cloudinary.com/shield-n-sheath/image/upload/v1651698773/shieldnsheath%20assets/ninja1_yzuahg.png"
+              alt="red ninja mask"
+            ></img>
           </a>
         </div>
       </div>

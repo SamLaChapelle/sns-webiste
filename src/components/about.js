@@ -1,9 +1,7 @@
 import React from "react";
-import aboutPic from "../assets/IMG_2656.png";
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
-import ninjaPackPic from "../assets/IMG_2643.png";
-import axesPic from "../assets/IMG_2646.png";
+
 
 function About() {
   return (
@@ -13,7 +11,7 @@ function About() {
         {" "}
         <img
           id="aboutPic"
-          src={aboutPic}
+          src="https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700930/shieldnsheath%20assets/IMG_2656_bcmkwk.png"
           alt="axe throwing lanes with targets"
         ></img>
         <p className="aboutInfo" id="aboutInfoMain">
@@ -54,12 +52,12 @@ function About() {
         </p>{" "}
         <img
           className="aboutPic2"
-          src={ninjaPackPic}
+          src="https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700916/shieldnsheath%20assets/IMG_2643_eunsof.png"
           alt="ninja star, throwing cards, knives and batarang laying on wooden table"
         ></img>{" "}
         <img
           className="aboutPic2"
-          src={axesPic}
+          src="https://res.cloudinary.com/shield-n-sheath/image/upload/v1651700918/shieldnsheath%20assets/IMG_2646_abteye.png"
           alt="three axes laying on wooden table"
         ></img>
       </div>
