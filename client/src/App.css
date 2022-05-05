@@ -318,6 +318,8 @@ p > a {
 #drinksPic {
   margin: 1em;
   border-radius: 2em;
+  height: 10em;
+  width: 90vw;
 }
 
 #menuFlex {
@@ -336,7 +338,7 @@ p > a {
   margin: 1em;
   border-radius: 2em;
   height: 35em;
-  width: 25em;
+  width: 90vw;
 }
 
 #beerPic {
