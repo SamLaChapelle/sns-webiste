@@ -109,6 +109,24 @@ ul {
   }
 }
 
+@-webkit-keyframes rotate {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes rotate {
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes rotate {
+  to {
+    -o-transform: rotate(360deg);
+  }
+}
+
 .navIcons {
   color: #000000;
   margin-top: 0.25em;
