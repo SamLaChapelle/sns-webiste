@@ -20,8 +20,6 @@ app.listen(port, () => {
   console.log(`Listening on port: ${port}`);
 });
 
-
-
 cloudinary.config({ 
   cloud_name: 'shield-n-sheath', 
   api_key: '841471652594934', 
