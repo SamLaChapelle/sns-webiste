@@ -92,6 +92,26 @@ ul {
   animation-delay: calc(var(--scroll) * -1s);
   animation-iteration-count: 1;
   animation-fill-mode: both;
+  -webkit-animation: rotate 1s linear infinite;
+  -webkit-animation-play-state: paused;
+  -webkit-animation-delay: calc(var(--scroll) * -1s);
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+  -moz-animation: rotate 1s linear infinite;
+  -moz-animation-play-state: paused;
+  -moz-animation-delay: calc(var(--scroll) * -1s);
+  -moz-animation-iteration-count: 1;
+  -moz-animation-fill-mode: both;
+  -o-animation: rotate 1s linear infinite;
+  -o-animation-play-state: paused;
+  -o-animation-delay: calc(var(--scroll) * -1s);
+  -o-animation-iteration-count: 1;
+  -ms-animation-fill-mode: both;
+  -ms-animation: rotate 1s linear infinite;
+  -ms-animation-play-state: paused;
+  -ms-animation-delay: calc(var(--scroll) * -1s);
+  -ms-animation-iteration-count: 1;
+  -ms-animation-fill-mode: both;
 }
 
 @keyframes rotate {
@@ -99,7 +119,26 @@ ul {
     transform: rotate(360deg);
   }
 }
-
+@-webkit-keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-ms-keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 .navIcons {
   color: #000000;
