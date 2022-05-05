@@ -121,22 +121,22 @@ ul {
 }
 @-webkit-keyframes rotate {
   to {
-    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
   }
 }
 @-moz-keyframes rotate {
   to {
-    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
   }
 }
 @-o-keyframes rotate {
   to {
-    transform: rotate(360deg);
+    -o-transform: rotate(360deg);
   }
 }
 @-ms-keyframes rotate {
   to {
-    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
   }
 }
 
