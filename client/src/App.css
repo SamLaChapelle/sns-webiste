@@ -93,8 +93,14 @@ ul {
   animation-iteration-count: 1;
   animation-fill-mode: both;
   -webkit-animation-delay: calc(var(--scroll) * -1s);
+  -webkit-animation: rotate 1s linear infinite;
+  -webkit-animation-play-state: paused;
   -moz-animation-delay: calc(var(--scroll) * -1s);
+  -moz-animation: rotate 1s linear infinite;
+  -moz-animation-play-state: paused;
   -o-animation-delay: calc(var(--scroll) * -1s);
+  -o-animation: rotate 1s linear infinite;
+  -o-animation-play-state: paused;
 }
 
 @keyframes rotate {
