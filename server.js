@@ -10,7 +10,7 @@ const app = express();
 //setting up default port
 const port = process.env.PORT || 5000;
 //binding our server to a static directory
-app.use(express.static("./client/build"));
+app.use(express.static("./client/public"));
 //setting up a route handler
 app.get("*", (req, res) => {
   res.sendFile(__dirname + "/client/build/index/html");
