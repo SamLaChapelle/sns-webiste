@@ -294,6 +294,7 @@ p > a {
   min-height: 90vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 #menuTitle {
@@ -315,6 +316,7 @@ p > a {
 #menuFlex {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 #pizzaPic {
@@ -324,11 +326,20 @@ p > a {
   width: 1em;
 }
 
-#snsMenuPic {
+#snsMenuPics {
+  height: 35em;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.snsMenuPic {
   margin: 1em;
   border-radius: 2em;
-  height: 35em;
-  width: 90vw;
+  height: 15em;
+  width: 70vw;
 }
 
 #beerPic {
@@ -716,11 +727,10 @@ p > a {
   }
 
   /* Menu */
-  /* Needs More Photo's Of Food */
 
   #Menu {
     background-color: #000000;
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -736,7 +746,7 @@ p > a {
   #menuFlex {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
   }
 
   #pizzaPic {
@@ -747,12 +757,20 @@ p > a {
     align-self: center;
   }
 
-  #snsMenuPic {
+  #snsMenuPics {
+    height: 35em;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .snsMenuPic {
     margin: 1em;
     border-radius: 2em;
-    height: 35em;
-    width: 25em;
-    justify-self: center;
+    height: 15em;
+    width: 50vw;
   }
 
   #beerPic {
@@ -1049,7 +1067,7 @@ p > a {
 
   #Menu {
     background-color: #000000;
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1076,12 +1094,20 @@ p > a {
     align-self: center;
   }
 
-  #snsMenuPic {
+  #snsMenuPics {
+    height: 35em;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .snsMenuPic {
     margin: 1em;
     border-radius: 2em;
-    height: 35em;
-    width: 25em;
-    justify-self: center;
+    height: 12em;
+    width: 30vw;
   }
 
   #beerPic {
@@ -1451,12 +1477,20 @@ p > a {
     margin-right: 15em;
   }
 
-  #snsMenuPic {
+  #snsMenuPics {
+    height: 35em;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .snsMenuPic {
     margin: 1em;
     border-radius: 2em;
-    height: 35em;
-    width: 25em;
-    justify-self: center;
+    height: 10em;
+    width: 20vw;
   }
 
   #beerPic {
