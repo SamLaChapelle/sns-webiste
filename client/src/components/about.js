@@ -15,7 +15,7 @@ function About() {
           alt="axe throwing lanes with targets"
         ></img>
         <p className="aboutInfo" id="aboutInfoMain">
-          Shield N Sheath Hatchet House was established in 2019 and is female
+          Shield N Sheath Hatchet House was established in 2021 and is female
           owned. Perfect for family, friends and corporate events. Book today to
           have a fun and unique experience throwing not only axes but ninja
           stars, knives, throwing cards and the one and only batarang! <br />
@@ -27,7 +27,9 @@ function About() {
           <br />
           Mon: Closed
           <br />
-          Tues - Fri: 3:00 - 9:30
+          Tues - Thurs: 3:00 - 9:30pm
+          <br />
+          Fri: 3:00 - 10:00pm
           <br />
           Sat: 12:00 - 10pm
           <br />
